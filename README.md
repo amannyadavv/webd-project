@@ -96,9 +96,3 @@ Admin panel
 Student Project – JOBIFY Job Portal
 Created for learning Web Development using HTML, CSS & JavaScript
 
-If you want, I can also:
-✅ Add a GitHub project description
-✅ Add screenshots section
-✅ Add license section
-
-Just tell me 😄
