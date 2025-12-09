@@ -1,0 +1,128 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f3f4f6;
+}
+
+/* Top Header */
+.header{
+    height:70px;
+    background:#2563eb;
+    display:flex;
+    align-items:center;
+    padding:0 20px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+
+/* Logo */
+.logo{
+    height:55px;
+    width:200px;
+    object-fit:contain;
+}
+
+/* Left Sidebar */
+.sidebar{
+    width:130px;
+    height:100vh;
+    background:#2563eb;
+    position:fixed;
+    top:70px;
+    left:0;
+    padding-top:20px;
+}
+
+/* Sidebar Links */
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    font-weight:bold;
+    font-size:16px;
+}
+
+.sidebar a:hover{
+    background:#2563eb;
+}
+
+/* Main Content */
+.main{
+    margin-left:200px;
+    margin-top:90px;
+    padding:10px 30px;
+}
+
+/* Cards Row */
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    margin:20px 0;
+}
+
+/* Card Box */
+.card{
+    background:white;
+    width:200px;
+    padding:15px;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    font-weight:bold;
+    text-align:center;
+}
+
+/* Form Container */
+.form-container{
+    background:white;
+    max-width:500px;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    margin-top:20px;
+}
+
+/* Form Heading */
+.form-container h2{
+    margin-top:0;
+    margin-bottom:15px;
+}
+
+/* Form Labels */
+label{
+    display:block;
+    margin-top:10px;
+    font-size:14px;
+}
+
+/* Inputs, Select, Textarea */
+input,
+select,
+textarea{
+    width:100%;
+    padding:8px;
+    margin-top:4px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+
+/* Button */
+button{
+    margin-top:15px;
+    width:100%;
+    padding:10px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    font-weight:bold;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.9;
+}

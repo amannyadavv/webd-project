@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f3f4f6;
+}
+
+/* Header */
+.header{
+    height:70px;
+    background:#2563eb;
+    display:flex;
+    align-items:center;
+    padding:0 20px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
+
+.logo{
+    height:55px;
+    width:200px;
+    object-fit:contain;
+}
+
+/* Sidebar */
+.sidebar{
+    width:130px;
+    height:100vh;
+    background:#2563eb;
+    position:fixed;
+    top:70px;
+    left:0;
+}
+
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    font-weight:bold;
+}
+
+.sidebar a:hover{
+    background:#2563eb;
+}
+
+/* Main Area */
+.main{
+    margin-left:200px;
+    margin-top:90px;
+    padding:20px;
+}
+
+/* Profile Card */
+.profile-card{
+    background:white;
+    width:320px;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+
+.profile-card h2{
+    margin-top:0;
+    margin-bottom:15px;
+}
+
+.profile-card p{
+    margin:8px 0;
+}
+
+.profile-card button{
+    margin-top:15px;
+    width:100%;
+    padding:10px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    font-weight:bold;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.profile-card button:hover{
+    opacity:0.9;
+}

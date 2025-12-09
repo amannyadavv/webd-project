@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jobify - Employer</title>
+    <link rel="stylesheet" href="employer.css">
+</head>
+<body>
+
+    <!-- Top Header -->
+    <div class="header">
+        <img src="logo.png" class="logo" alt="Jobify logo">
+    </div>
+
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+        <a href="Lists.html">🏠 Home</a>
+        <a href="employer.html">💼 Employer</a>
+        <a href="profile.html">👤 Profile</a>
+        <a href="index.html">🚪 Logout</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <h1>Employer Dashboard</h1>
+        <p>Post jobs and manage your openings on Jobify.</p>
+
+        <div class="cards">
+            <div class="card">📢 Post New Job</div>
+            <div class="card">📄 View Posted Jobs</div>
+            <div class="card">📩 Applications Received</div>
+        </div>
+
+        <div class="form-container">
+            <h2>Post a New Job</h2>
+            <form>
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company">
+
+                <label for="title">Job Title:</label>
+                <input type="text" id="title" name="title">
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location">
+
+                <label for="salary">Salary (Approx):</label>
+                <input type="text" id="salary" name="salary">
+
+                <label for="type">Job Type:</label>
+                <select id="type" name="type">
+                    <option>Full-time</option>
+                    <option>Part-time</option>
+                    <option>Internship</option>
+                    <option>Remote</option>
+                </select>
+
+                <label for="description">Job Description:</label>
+                <textarea id="description" name="description" rows="4"></textarea>
+
+                <button type="button">Post Job</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
